@@ -159,7 +159,7 @@ task :default do
   Rake::Task['install:brew_cask'].invoke
   Rake::Task['install:the_silver_searcher'].invoke
   Rake::Task['install:iterm'].invoke
-  Rake::Task['install:ctags'].invoke
+#  Rake::Task['install:ctags'].invoke
   Rake::Task['install:reattach_to_user_namespace'].invoke
   Rake::Task['install:tmux'].invoke
   Rake::Task['install:macvim'].invoke
